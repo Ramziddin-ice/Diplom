@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:05+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\aerogeod\aboutus.html:6 .\templates\aerogeod\aboutus.html:41
+#: .\templates\aerogeod\alladss.html:30 .\templates\aerogeod\departinfo.html:31
+#: .\templates\aerogeod\rukovodstvo.html:31
+#: .\templates\aerogeod\structure.html:31
+#: .\templates\aerogeod\upravlenie.html:31 .\templates\footer.html:26
+#: .\templates\header.html:77
+msgid "О центре"
+msgstr "About the center"
+
+#: .\templates\aerogeod\aboutus.html:42 .\templates\aerogeod\alladss.html:31
+#: .\templates\aerogeod\departinfo.html:32
+#: .\templates\aerogeod\rukovodstvo.html:6
+#: .\templates\aerogeod\rukovodstvo.html:19
+#: .\templates\aerogeod\rukovodstvo.html:32
+#: .\templates\aerogeod\structure.html:32
+#: .\templates\aerogeod\upravlenie.html:32 .\templates\footer.html:27
+#: .\templates\header.html:79
+msgid "Руководство"
+msgstr "Management"
+
+#: .\templates\aerogeod\aboutus.html:43 .\templates\aerogeod\alladss.html:32
+#: .\templates\aerogeod\departinfo.html:33
+#: .\templates\aerogeod\rukovodstvo.html:33
+#: .\templates\aerogeod\structure.html:33
+#: .\templates\aerogeod\upravlenie.html:33 .\templates\footer.html:28
+#: .\templates\header.html:80
+msgid "Организационная структура"
+msgstr "Organizational structure"
+
+#: .\templates\aerogeod\aboutus.html:46 .\templates\aerogeod\departinfo.html:36
+#: .\templates\aerogeod\rukovodstvo.html:36
+#: .\templates\aerogeod\structure.html:36
+#: .\templates\aerogeod\upravlenie.html:36 .\templates\header.html:83
+msgid "Отделы организации"
+msgstr "Departments of the organization"
+
+#: .\templates\aerogeod\aboutus.html:61 .\templates\aerogeod\alladss.html:53
+#: .\templates\aerogeod\departinfo.html:53
+#: .\templates\aerogeod\rukovodstvo.html:49
+#: .\templates\aerogeod\structure.html:50
+#: .\templates\aerogeod\upravlenie.html:50 .\templates\footer.html:31
+#: .\templates\header.html:94
+msgid "Межрегиональные отделения"
+msgstr "Interregional branches"
+
+#: .\templates\aerogeod\aboutus.html:62 .\templates\aerogeod\alladss.html:54
+#: .\templates\aerogeod\departinfo.html:54
+#: .\templates\aerogeod\rukovodstvo.html:50
+#: .\templates\aerogeod\sotrudnichestvo.html:6
+#: .\templates\aerogeod\sotrudnichestvo.html:19
+#: .\templates\aerogeod\structure.html:51 .\templates\footer.html:32
+#: .\templates\header.html:95
+msgid "Международное сотрудничество"
+msgstr "The international cooperation"
+
+#: .\templates\aerogeod\aboutus.html:76
+msgid "Наша история"
+msgstr "Our history"
+
+#: .\templates\aerogeod\adssone.html:32
+msgid "Недавние объявлении"
+msgstr "Recent announcements"
+
+#: .\templates\aerogeod\adssone.html:33
+msgid "Все объявлении"
+msgstr "All announcements"
+
+#: .\templates\aerogeod\announcements.html:6
+#: .\templates\aerogeod\announcements.html:17
+#: .\templates\aerogeod\announcements.html:36 .\templates\aerogeod\faq.html:68
+#: .\templates\aerogeod\index.html:351 .\templates\aerogeod\news.html:34
+#: .\templates\aerogeod\photos.html:24 .\templates\aerogeod\press.html:23
+#: .\templates\aerogeod\videos.html:22 .\templates\header.html:109
+msgid "Объявления"
+msgstr "Announcement"
+
+#: .\templates\aerogeod\announcements.html:30
+#: .\templates\aerogeod\announcements.html:68
+#: .\templates\aerogeod\departinfo.html:88 .\templates\aerogeod\index.html:244
+#: .\templates\aerogeod\index.html:287 .\templates\aerogeod\index.html:367
+#: .\templates\aerogeod\news.html:28 .\templates\aerogeod\news.html:68
+#: .\templates\aerogeod\rukovodstvo.html:81
+#: .\templates\aerogeod\services.html:76
+#: .\templates\aerogeod\upravlenie.html:83
+msgid "Подробнее"
+msgstr "More detailed"
+
+#: .\templates\aerogeod\announcements.html:39 .\templates\aerogeod\faq.html:71
+#: .\templates\aerogeod\news.html:6 .\templates\aerogeod\news.html:17
+#: .\templates\aerogeod\news.html:37 .\templates\aerogeod\photos.html:27
+#: .\templates\aerogeod\press.html:26 .\templates\aerogeod\videos.html:25
+#: .\templates\header.html:110
+msgid "Новости"
+msgstr "News"
+
+#: .\templates\aerogeod\announcements.html:42 .\templates\aerogeod\faq.html:74
+#: .\templates\aerogeod\news.html:40 .\templates\aerogeod\photos.html:30
+#: .\templates\aerogeod\press.html:6 .\templates\aerogeod\press.html:29
+#: .\templates\aerogeod\videos.html:28 .\templates\header.html:111
+msgid "Пресс-служба"
+msgstr "Press service"
+
+#: .\templates\aerogeod\announcements.html:45 .\templates\aerogeod\faq.html:77
+#: .\templates\aerogeod\news.html:43 .\templates\aerogeod\photos.html:33
+#: .\templates\aerogeod\press.html:32 .\templates\aerogeod\videos.html:31
+msgid "FAQ"
+msgstr "FAQ"
+
+#: .\templates\aerogeod\announcements.html:48 .\templates\aerogeod\faq.html:80
+#: .\templates\aerogeod\news.html:46 .\templates\aerogeod\photos.html:6
+#: .\templates\aerogeod\photos.html:20 .\templates\aerogeod\photos.html:36
+#: .\templates\aerogeod\press.html:35 .\templates\aerogeod\videos.html:34
+#: .\templates\footer.html:46 .\templates\header.html:114
+msgid "Фотографии"
+msgstr "Photos"
+
+#: .\templates\aerogeod\announcements.html:51 .\templates\aerogeod\faq.html:83
+#: .\templates\aerogeod\news.html:49 .\templates\aerogeod\photos.html:39
+#: .\templates\aerogeod\press.html:38 .\templates\aerogeod\videos.html:6
+#: .\templates\aerogeod\videos.html:18 .\templates\aerogeod\videos.html:37
+#: .\templates\footer.html:47 .\templates\header.html:115
+msgid "Видео"
+msgstr "Videos"
+
+#: .\templates\aerogeod\contactus.html:6 .\templates\aerogeod\contactus.html:20
+#: .\templates\header.html:78
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\templates\aerogeod\contactus.html:32
+msgid "Номер"
+msgstr "Contacts"
+
+#: .\templates\aerogeod\contactus.html:40
+msgid "Эл.почта"
+msgstr "Email"
+
+#: .\templates\aerogeod\contactus.html:50
+msgid "Адрес"
+msgstr "Address"
+
+#: .\templates\aerogeod\contactus.html:62
+msgid "Центральное аэрогеодезическое предприятие"
+msgstr "Central Aerogeodetic Enterprise"
+
+#: .\templates\aerogeod\contactus.html:65
+msgid "Изыскательские работы в Ташкенте"
+msgstr "Survey work in Tashkent"
+
+#: .\templates\aerogeod\contactus.html:68
+msgid "Геология, геофизика в Ташкенте"
+msgstr "Geology, geophysics in Tashkent"
+
+#: .\templates\aerogeod\contactus.html:78
+msgid "Обратная связь"
+msgstr "Feedback"
+
+#: .\templates\aerogeod\contactus.html:86
+msgid "Ф.И.О"
+msgstr "Full name"
+
+#: .\templates\aerogeod\contactus.html:91
+msgid "Телефон"
+msgstr "Telephone"
+
+#: .\templates\aerogeod\contactus.html:96
+msgid "E-mail"
+msgstr "Email"
+
+#: .\templates\aerogeod\contactus.html:105
+msgid "Тема"
+msgstr "Topic"
+
+#: .\templates\aerogeod\contactus.html:111
+msgid "Сообщение"
+msgstr "Message"
+
+#: .\templates\aerogeod\contactus.html:116
+msgid "Отправить"
+msgstr "Send"
+
+#: .\templates\aerogeod\faq.html:6 .\templates\aerogeod\faq.html:64
+#: .\templates\footer.html:45
+msgid "Часто задаваемые вопросы"
+msgstr "Frequently asked Questions"
+
+#: .\templates\aerogeod\index.html:6
+msgid "Республиканский Аэрогеодезический Центр"
+msgstr "Republican Aerogeodetic Center"
+
+#: .\templates\aerogeod\index.html:352
+msgid "Все объявления"
+msgstr "All announcements"
+
+#: .\templates\aerogeod\index.html:564
+msgid "Часто-задаваемые вопросы"
+msgstr "Frequently asked Questions"
+
+#: .\templates\aerogeod\index.html:565
+msgid "Посмотреть все"
+msgstr "View all"
+
+#: .\templates\aerogeod\infographic.html:6
+#: .\templates\aerogeod\infographic.html:19 .\templates\header.html:116
+msgid "Инфографики"
+msgstr "Infographics"
+
+#: .\templates\aerogeod\newsdetails.html:43
+msgid "Недавние новости"
+msgstr "Recent news"
+
+#: .\templates\aerogeod\newsdetails.html:44
+msgid "Все новости"
+msgstr "All news"
+
+#: .\templates\aerogeod\pres_relize.html:6
+#: .\templates\aerogeod\pres_relize.html:19 .\templates\header.html:127
+msgid "Пресс-релизы"
+msgstr "Press-releases"
+
+#: .\templates\aerogeod\serviceInfo.html:44
+msgid "Технология"
+msgstr "Technology"
+
+#: .\templates\aerogeod\serviceInfo.html:71
+msgid "Выполненные работы"
+msgstr "Completed works"
+
+#: .\templates\aerogeod\serviceInfo.html:97
+#: .\templates\aerogeod\services.html:68
+msgid "Получить договор"
+msgstr "Get a contract"
+
+#: .\templates\aerogeod\services.html:6 .\templates\aerogeod\services.html:17
+#: .\templates\header.html:134
+msgid "Сервисы"
+msgstr "Services"
+
+#: .\templates\aerogeod\services.html:30
+msgid "Отделы"
+msgstr "Departments"
+
+#: .\templates\aerogeod\structure.html:6
+msgid "Организационная структура комитета"
+msgstr "Organizational structure of the committee"
+
+#: .\templates\aerogeod\upravlenie.html:6
+#: .\templates\aerogeod\upravlenie.html:19
+#, fuzzy
+#| msgid "Межрегиональные отделения"
+msgid "Территориальные управления"
+msgstr "Interregional branches"
+
+#: .\templates\aerogeod\upravlenie.html:51
+msgid "Междуwнародное сотрудничество"
+msgstr "International cooperation"
+
+#: .\templates\footer.html:12
+msgid "Email"
+msgstr "Email"
+
+#: .\templates\footer.html:13
+msgid "Адрес:"
+msgstr "Address:"
+
+#: .\templates\footer.html:40 .\templates\footer.html:44
+#: .\templates\header.html:106
+msgid "Пресс служба"
+msgstr "Press service"
+
+#: .\templates\footer.html:42
+msgid "Новости агентства"
+msgstr "Agency news"
+
+#: .\templates\footer.html:43
+msgid "Объявлении"
+msgstr "Announcement"
+
+#: .\templates\footer.html:48
+msgid "Инфографики и пресс-релизы"
+msgstr "Infographics and press releases"
+
+#: .\templates\footer.html:53 .\templates\header.html:123
+msgid "Нормативно-правовые акты"
+msgstr "Regulatory legal acts"
+
+#: .\templates\header.html:74
+msgid "Центр"
+msgstr "Centre"
+
+#: .\templates\header.html:113
+msgid "F.A.Q."
+msgstr "FAQ"
+
+#: .\templates\header.html:171
+msgid "Вход"
+msgstr ""
+
+#: .\templates\header.html:178
+msgid "Русский"
+msgstr "English"
+
+#~ msgid "Интерактивная карта"
+#~ msgstr "Interactive map"
+
+#~ msgid "Увеличить карту"
+#~ msgstr "Enlarge map"

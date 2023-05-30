@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Date_created</th>
+      <th scope="col">Name</th>
+      <th scope="col">file</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for foo in files %}
+  <tr>
+      <th scope="row">{{ foo.id }}</th>
+      <td>{{ foo.created }}</td>
+      <td>{{ foo.name }}</td>
+      <td>{{ foo.file }}</td>
+    </tr>
+  {% endfor %}
+
+    
+
+  </tbody>
+</table>
+<a href="{% url 'shcheck' 'a49a8708-af2a-41fc-8f32-249f5b114850' '57a7f3e6-279a-4e95-9006-20e532bdc55a'%}">asdasdsa</a>
+</body>
+</html>

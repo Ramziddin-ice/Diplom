@@ -1,0 +1,60 @@
+{% extends "../base.html" %}
+{% block title %}
+Bazadan matni tekshirish
+{% endblock %}
+{% block custom_css %}
+
+{% endblock %}
+ {% block content %}
+<div class="container">
+    <div class="formbold-form-wrapper">
+      <center><h2 class="text-uppercase text-white">Matnlarda plagiat aniqlash!</h2></center>
+      <br>
+
+    <form  method="POST" enctype="multipart/form-data" id="maxform">
+        {% csrf_token %}
+        <div class="input-group p-1">
+    <input name="number" type="number" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Matnni bolaklanish sonni kiriting...">
+</div>
+        <div class="card m-1">
+  <div class="card-header text-uppercase" style="color: #0476b3!important;">
+    Matnni kirting
+  </div>
+  <div class="card-body ">
+      <div class="form-group">
+          <textarea
+                rows="6"
+                name="first_text"
+                id="first_text"
+                placeholder="Matnni kiriting..."
+                class="form-control"
+                style="color: #0476b3!important;"
+            ></textarea>  </div>
+  </div>
+</div>
+        <div class="container">
+  <div class="row">
+        <button  id="xbutton1" type="button" class="btn btn-info col m-1 text-uppercase text-white">
+            Matni bazaga kirtish
+        </button>
+            <button  id="xbutton2" type="button" class="btn btn-info col m-1 text-uppercase text-white">
+            Tekshirish
+        </button>
+            </div>
+        </div>
+    </form>
+
+  </div>
+<table id="tabx" class="table table-dark m-1 rounded" >
+  <thead>
+    <tr >
+      <th scope="col" >Kirtilgan bazadagi mantinlarga nisbatan o`xshashligi qiymati <b class="col"> Bazadagi insholar soni:{{ count }}</b></th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+</div>
+
+ {% endblock %}

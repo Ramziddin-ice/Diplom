@@ -1,0 +1,79 @@
+{% extends "../base.html" %}
+{% block title %}
+MATNLARDA PLAGIAT ANIQLASH
+{% endblock %}
+{% block custom_css %}
+
+{% endblock %}
+ {% block content %}
+
+
+     <div class="container">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="formbold-form-wrapper">
+      <center><h2 class="text-uppercase text-white">Matnlarda plagiat aniqlash!</h2></center>
+      <br>
+
+    <form  method="POST" enctype="multipart/form-data" id="maxform">
+        {% csrf_token %}
+        <div class="input-group p-1">
+    <input name="number" type="number" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Matnni bolaklanish sonni kiriting...">
+</div>
+        <div class="card m-1">
+  <div class="card-header text-uppercase" style="color: #0476b3!important;">
+    Birinchi matn
+  </div>
+  <div class="card-body ">
+      <div class="form-group">
+          <textarea
+                rows="6"
+                name="first_text"
+                id="first_text"
+                placeholder="Matnni kiriting..."
+                class="form-control"
+                style="color: #0476b3!important;"
+            ></textarea>  </div>
+  </div>
+</div>
+        <div class="card m-1">
+  <div class="card-header text-uppercase" style="color: #0476b3!important;">
+    Ikkinchi  matn
+  </div>
+  <div class="card-body">
+      <div class="form-group">
+          <textarea
+                rows="6"
+                name="second_text"
+                id="second_text"
+                placeholder="Matnni kiriting..."
+                class="form-control"
+                style="color: #0476b3!important;"
+            ></textarea>  </div>
+  </div>
+</div>
+        <div class="m-1 p-1">
+        <button  id="xbutton" type="button" class="btn btn-info w-100 text-uppercase text-white">
+            Tekshirish
+        </button>
+            </div>
+    </form>
+
+  </div>
+<table id="tabx" class="table table-dark m-1 rounded" >
+  <thead>
+    <tr>
+      <th scope="col">№</th>
+      <th scope="col">Kirtilgan matin o`xshashligi qiymati</th>
+
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+</div>
+
+
+
+ {% endblock %}
