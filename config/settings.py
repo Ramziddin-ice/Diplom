@@ -26,8 +26,11 @@ SECRET_KEY = 'django-insecure-^@4qvfjv+_@v9_w@ie-6zgi#g3+kcp3opx$e*n*3&$%kk5^qw=
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
-
+CSRF_TRUSTED_ORIGINS=['http://shdiplom.uz','http://83.69.136.58'] 
+CORS_ALLOWED_ORIGINS = [
+   "http://127.0.0.1:8000",
+]
+CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
