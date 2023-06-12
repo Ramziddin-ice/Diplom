@@ -14,7 +14,7 @@ Bazadan matni tekshirish
     <form  method="POST" enctype="multipart/form-data" id="maxform">
         {% csrf_token %}
         <div class="input-group p-1">
-    <input name="number" type="number" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Matnni bolaklanish sonni kiriting...">
+    <input name="number" type="number" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Matnning bo'laklanish sonini kiriting...">
 </div>
         <div class="card m-1">
   <div class="card-header text-uppercase" style="color: #0476b3!important;">
@@ -48,7 +48,7 @@ Bazadan matni tekshirish
 <table id="tabx" class="table table-dark m-1 rounded" >
   <thead>
     <tr >
-      <th scope="col" >Kirtilgan bazadagi mantinlarga nisbatan o`xshashligi qiymati <b class="col"> Bazadagi insholar soni:{{ count }}</b></th>
+      <th scope="col" >Kirtilgan bazadagi mantnlarga nisbatan o`xshashligi qiymati <b class="col"> Bazadagi insholar soni:{{ count }}</b></th>
     </tr>
   </thead>
   <tbody>
