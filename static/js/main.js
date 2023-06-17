@@ -6,6 +6,7 @@ $(document).ready(function () {
           var trx=false;
         $.ajax({
           url: "http://shdiplom.uz/xresult/",
+          //url: "http://127.0.0.1:8000/xresult/",
           type: "POST",
           data: $('#maxform').serialize(),
           success: function (data) {
@@ -45,6 +46,7 @@ $(document).ready(function () {
 
           counter++
         $.ajax({
+            //url: "http://shdiplom.uz/detailsave/",
           url: "http://shdiplom.uz/detailsave/",
           type: "POST",
           data: $('#maxform').serialize(),
@@ -75,7 +77,8 @@ $(document).ready(function () {
            var trx=false;
           counter++
         $.ajax({
-          url: "http://shdiplom.uz/detailchacks/",
+            url: "http://shdiplom.uz/detailchacks/",
+          //url: "http://127.0.0.1:8000/detailchacks/",
           type: "POST",
           data: $('#maxform').serialize(),
           success: function (data) {

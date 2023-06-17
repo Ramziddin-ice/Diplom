@@ -69,7 +69,7 @@ def XresultView(request):
         intersection = set(hash_shingles_1).intersection(hash_shingles_2)
         natija = (len(intersection) / len(shtext_1))
         data ={}
-        data['natija']=natija
+        data['natija']=int(natija*100.00)
         return Response(data)
     elif request.method == 'GET':
         data = {}
@@ -126,7 +126,7 @@ def XChackesView(request):
             natija = (len(intersection) / len(shtext_1))
             summ=summ+natija
         data={
-            'natija':summ/count
+            'natija':int((summ/count)*100.00)
         }
         return Response(data)
     elif request.method == 'GET':
